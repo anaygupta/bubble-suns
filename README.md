@@ -22,7 +22,7 @@ Automated scraping & pre-processing of box scores still underway for concentric 
 
 
 # Tasks Left:
-##Pre-Processing:
+## Pre-Processing:
 Viz #3 (In-Progress): 
 Finish scraping box scores and clean data for concentric bubble chart.
 
