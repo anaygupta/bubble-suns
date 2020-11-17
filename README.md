@@ -1,46 +1,46 @@
 # Bubble-Stats-494
-#Tasks Completed: 
-##Pre-Processing:
+# Tasks Completed: 
+## Pre-Processing:
 Viz #1 (Completed): Imported game log dataset and calculated stat averages for pre-bubble and in-bubble Suns.
 
 Viz #2 (Completed): Created a .csv file that shows calculated Suns’ stat averages against the 7 teams from the bubble and before the bubble.
 
 
-##Viz #1 Tasks:
+## Viz #1 Tasks:
 Create View 1 of Radar Chart for Pre-bubble
 Tested various scales for best scaling values, and order of statistics around the border of radar charts. 
 Legend added
 Styling (default colors used for now)
 
-##Viz #2 Tasks: 
+## Viz #2 Tasks: 
 Used data from Basketball Reference to compute Suns’ game stats against a specific team and separated the data by Regular season to Bubble.
 Created a new .csv file and stored the data 
 
-##Viz #3 Tasks:
+## Viz #3 Tasks:
 Successfully directed web scraper to box score XPATHS (elements) for 2019-2020 Phoenix Suns games found in original data source.
 Automated scraping & pre-processing of box scores still underway for concentric bubble chart. 
 
 
-#Tasks Left:
+# Tasks Left:
 ##Pre-Processing:
 Viz #3 (In-Progress): 
 Finish scraping box scores and clean data for concentric bubble chart.
 
-##Viz #1 Tasks:
+## Viz #1 Tasks:
 Coordinate layers of radar chart and appropriately change scalings.
 Styling (still in progress, default colors used)
 
-##Viz #2 Tasks: 
+## Viz #2 Tasks: 
 Create Bar charts for all 6 stats
 Create drop-down inputs for the 7 teams
 Add legend and tooltip for bars
 
-##Viz #3 Tasks:
+## Viz #3 Tasks:
 Create bubble views
 Create user-inputs and hover-on tooltip
 Style visualization 
 
-#Project Changes
+# Project Changes
 
 We will be changing from our “semi-interactive” interface to a data-driven story per Dr. Bryan’s suggestion.
 
@@ -57,7 +57,7 @@ This ensures a change is made to all visible charts per each scroll from the use
 Cumulative averages will be used in Viz 1 and Viz 3.
 Finally, once all games have been scrolled through, the user will be shown Viz 2. This visualization will be the basis of our conclusion for the story. Our team will come up with reasonings for why the Suns played so effectively in-bubble.
 
-#Screenshot of Basic Radar Chart (Viz #1)
+# Screenshot of Basic Radar Chart (Viz #1)
 ![Image of Viz 1](viz1_screenshot.png)
 
 Link to original data source: https://www.basketball-reference.com/teams/PHO/2020_games.html 
