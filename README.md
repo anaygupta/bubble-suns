@@ -7,38 +7,38 @@ Viz #2 (Completed): Created a .csv file that shows calculated Suns’ stat avera
 
 
 ## Viz #1 Tasks:
-Create View 1 of Radar Chart for Pre-bubble
-Tested various scales for best scaling values, and order of statistics around the border of radar charts. 
-Legend added
-Styling (default colors used for now)
+- Created View 1 of Radar Chart for Pre-bubble. 
+- Tested various scales for best scaling values, and order of statistics around the border of radar charts. 
+- Legend added
+- Styling (default colors used for now)
 
 ## Viz #2 Tasks: 
-Used data from Basketball Reference to compute Suns’ game stats against a specific team and separated the data by Regular season to Bubble.
-Created a new .csv file and stored the data 
+- Used data from Basketball Reference to compute Suns’ game stats against a specific team and separated the data by Regular season to Bubble.
+- Created a new .csv file and stored the data 
 
 ## Viz #3 Tasks:
-Successfully directed web scraper to box score XPATHS (elements) for 2019-2020 Phoenix Suns games found in original data source.
-Automated scraping & pre-processing of box scores still underway for concentric bubble chart. 
+- Successfully directed web scraper to box score XPATHS (elements) for 2019-2020 Phoenix Suns games found in original data source.
+- Automated scraping & pre-processing of box scores still underway for concentric bubble chart. 
 
 
 # Tasks Left:
 ## Pre-Processing:
 Viz #3 (In-Progress): 
-Finish scraping box scores and clean data for concentric bubble chart.
+- Finish scraping box scores and clean data for concentric bubble chart.
 
 ## Viz #1 Tasks:
-Coordinate layers of radar chart and appropriately change scalings.
-Styling (still in progress, default colors used)
+- Coordinate layers of radar chart and appropriately change scalings.
+- Styling (still in progress, default colors used)
 
 ## Viz #2 Tasks: 
-Create Bar charts for all 6 stats
-Create drop-down inputs for the 7 teams
-Add legend and tooltip for bars
+- Create Bar charts for all 6 stats
+- Create drop-down inputs for the 7 teams
+- Add legend and tooltip for bars
 
 ## Viz #3 Tasks:
-Create bubble views
-Create user-inputs and hover-on tooltip
-Style visualization 
+- Create bubble views
+- Create user-inputs and hover-on tooltip
+- Style visualization 
 
 # Project Changes
 
