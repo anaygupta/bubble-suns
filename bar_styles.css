@@ -1,0 +1,12 @@
+#wrapper {
+    margin:auto;
+    width:1310px;
+  }
+
+svg {
+    border:1px solid gray;
+    border-radius:10px;
+    height:300px;
+    width:350px;
+    margin:5px;
+  }
