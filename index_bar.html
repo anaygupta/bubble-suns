@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>Bar Chart</title>
     <link rel='stylesheet' href='bar_styles.css'>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    </head>
-    <body>
-        <div id='wrapper'>
-            <h2>Suns' Stat Averages Against Bubble Teams</h2>
-            &nbsp;Select Opponent Team for Suns' Stat Comparison&nbsp;
-            <select id='teamselect' onchange='drawBars();'>
-                <option value='DAL'>DAL</option>
-                <option value='PHI'>PHI</option>
-                <option value='OKC'>OKC</option>
-                <option value='MIA'>MIA</option>
-                <option value='IND'>IND</option>
-                <option value='LAC'>LAC</option>
-                <option value='WAS'>WAS</option>
-                </select>
-            </br>
-            <svg id='FGM_bar'></svg>
-            <svg id='AST_bar'></svg>
-            <svg id='REB_bar'></svg>
-        </div>
-        <div id='wrapper'>
-            <svg id='STL_bar'></svg>
-            <svg id='BLK_bar'></svg>
-            <svg id='TOV_bar'></svg>
-        </div>
-        <script src="bar_chart.js"></script>
-    </body>
+</head>
+
+<body>
+    <div id='wrapper'>
+        <h2>Suns' Stat Averages Against Bubble Teams</h2>
+        &nbsp;Select Opponent Team for Suns' Stat Comparison&nbsp;
+        <select id='teamselect' onchange='drawBars();'>
+            <option value='DAL'>DAL</option>
+            <option value='PHI'>PHI</option>
+            <option value='OKC'>OKC</option>
+            <option value='MIA'>MIA</option>
+            <option value='IND'>IND</option>
+            <option value='LAC'>LAC</option>
+            <option value='WAS'>WAS</option>
+        </select>
+        </br>
+        <svg id='FGM_bar'></svg>
+        <svg id='AST_bar'></svg>
+        <svg id='REB_bar'></svg>
+    </div>
+    <div id='wrapper'>
+        <svg id='STL_bar'></svg>
+        <svg id='BLK_bar'></svg>
+        <svg id='TOV_bar'></svg>
+    </div>
+    <script src="bar_chart.js"></script>
+</body>
+
 </html>
