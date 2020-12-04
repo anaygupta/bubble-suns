@@ -1,6 +1,6 @@
 # Too Hot for the Bubble?
 # Overview:
-![A Peak](layDownSun.png) 
+![A Peak](thumbnail.png) 
 The Phoenix Suns had a spectacular bubble run in the 2019-20 NBA season when they should have never been invited and everyone doubted them. A cursory glance of the Suns’ regular season before COVID-19 lockdowns began shows that our boys were some of the lowest in the league. Since joining the bubble, The Phoenix Suns had blown away not only residents of the State of Arizona, but the rest of the nation. The Valley boys had outperformed and beaten the West Coast’s best teams, but barely missed playoff qualifications. We will be taking a look into the season where the Phoenix Suns became the NBA’s darlings and analyze their success at the NBA Bubble in Orlando. 
 
 ## Data description:
