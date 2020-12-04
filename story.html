@@ -32,7 +32,7 @@
                 <h1 style="color: purple;">#WHYNOTUS</h1>
                 <hr>
                 <br/>
-                <h2>Too Hot for the Bubble?</h2>
+                <h2 style="color: orangered;">Too Hot for the Bubble?</h2>
                 <h4>The Story of the Phoenix Suns' Performance in the 2020 NBA Orlando Bubble</h4>
                 
                 <br/>
@@ -112,6 +112,7 @@
                 </div>
             </div>
             <img src="imgs/booker.JPG">
+            <p>Devin Booker after he sank in the buzzer beating game winner against the Los Angeles Clippers</p>
             <hr>
             <h2>Insert viz 1 and 3 here</h2>
             <hr>
@@ -157,9 +158,21 @@
                 width:350px;
                 margin:5px;
                 }
+
+                .tooltip-map {
+                position: absolute;
+                text-align: left;
+                padding: .5rem;
+                background: #FFFFFF;
+                color: #313639;
+                border: 1px solid #313639;
+                border-radius: 4px;
+                pointer-events: none;
+                font-size: 1rem;
+                }
             </style>
             <div id='wrapper'>
-                <h2>Suns' Stat Averages Against Bubble Teams</h2>
+                <h2>Suns' Stat Averages Against Bubble Teams 2019-20 Season</h2>
                 &nbsp;Select Opponent Team for Suns' Pre-Bubble and In-Bubble Comparison:&nbsp;
                 <select id='teamselect' onchange='drawBars();'>
                     <option value='DAL'>Dallas Mavericks</option>
@@ -170,7 +183,7 @@
                     <option value='LAC'>Los Angeles Clippers</option>
                     <option value='WAS'>Washington Wizards</option>
                 </select>
-                </br>
+                <br/>
                 <svg id='FGM_bar'></svg>
                 <svg id='AST_bar'></svg>
                 <svg id='REB_bar'></svg>
@@ -189,6 +202,7 @@
             <p><b>Turnovers:</b> The Suns have made significant improvements on ball handling and significantly reduced the amount of turnovers given to the opposing team. In six of the eight games, the Suns have shown how much better they are at handling the ball against NBA powerhouses like the Clippers and 76ers compared to before the Bubble.</p>
             <p>All in all, the Phoenix Suns have set themselves up for quite the return on December 12, 2020 against the Utah Jazz, and shortly thereafter the reigning champs from Los Angeles, the Lakers. With significant additions to the roster including maverick Point Guard, Chris Paul, the future seems bright as ever for the Suns.</p>
             <hr>
+            <h5 style="text-align: right;">Data Source: <a href="https://www.basketball-reference.com/teams/PHO/2020_games.html" target="_blank"> Basketball Reference</a></h5>
             <br/>
         </div>
     </body>

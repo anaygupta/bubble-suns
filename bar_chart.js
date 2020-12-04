@@ -13,11 +13,12 @@ const height = 300 - lineMargin.top - lineMargin.bottom;
 
 //var teamData;
 
-FGMSvg = d3.select('#FGM_bar')
+FGMSvg = d3.select('#FGM_bar').append("svg")
     .attr("width", width + lineMargin.left + lineMargin.right)
     .attr("height", height + lineMargin.top + lineMargin.bottom)
     .append("g")
-    .attr("transform", `translate(${lineMargin.left},${lineMargin.top})`);
+    .attr("transform", 
+          "translate(" + lineMargin.left + "," + lineMargin.top + ")");
 
 ASTSvg = d3.select('#AST_bar')
     .attr("width", width + lineMargin.left + lineMargin.right)
@@ -49,8 +50,6 @@ TOVSvg = d3.select('#TOV_bar')
     .append("g")
     .attr("transform", `translate(${lineMargin.left},${lineMargin.top})`);
 
-legendSvg = d3.select('#legend');
-
 // create scales
 const xScale = d3.scaleBand()
     .domain(['Pre-Bubble', 'In-Bubble'])
@@ -68,16 +67,14 @@ drawBars();
 
 function drawBars() {
     //removes any current bars before drawing new bars
-    FGMSvg.selectAll("*").remove();
-    ASTSvg.selectAll("*").remove();
-    REBSvg.selectAll("*").remove();
-    STLSvg.selectAll("*").remove();
-    BLKSvg.selectAll("*").remove();
-    TOVSvg.selectAll("*").remove();
+
+    d3.selectAll(".bar").remove();
+    d3.selectAll("text").remove();
 
     var selectedTeam = d3.select('#teamselect').property('value');
 
-    d3.csv('datasets/vis2_dataset.csv').then(data => {
+    d3.csv('datasets/vis2_dataset.csv', function(error, data) {
+        if (error) throw error;
         //console.log(data);
 
         //data.filter(function(d) { return d.Team == selectedTeam});
