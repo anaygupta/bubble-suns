@@ -1,29 +1,91 @@
 body {
-    overflow: hidden;
-    margin: 0;
-    font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica;
+  margin: 0;
+  /*position: center;*/
+  justify-content: left;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: monospace;
 }
 
-#chart {
-    position: absolute;
-    top: 50px;
-    left: 100px;
+.container {
+  display: flex;
+  position: center;
+  /*right: 70px;*/
+  justify-content: left;
+  width: 100%;
+  justify-items: left;
+  justify-self: left;
 }
-.radar-chart .area {
-    fill-opacity: 0.7;
+
+text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
-.radar-chart.focus .area {
-    fill-opacity: 0.3;
+
+.x-tick {
+  stroke: black;
+  opacity: 0.5;
 }
-.radar-chart.focus .area.focused {
-    fill-opacity: 0.9;
+
+.x-tick-long {
+  stroke: black;
+  stroke-dasharray: 5, 5;
+  opacity: 0.3;
 }
-.area.germany, .germany .circle {
-    fill: #FFD700;
-    stroke: none;
+
+.y-tick circle {
+  fill: grey;
+  font-size: 10px;
+  opacity: 0.1;
 }
-.area.argentina, .argentina .circle {
-    fill: #ADD8E6;
-    stroke: none;
+
+.y-tick text {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.label text {
+  font-size: 10px;
+}
+
+.hover-dot {
+  opacity: 0;
+}
+
+/* slider */
+
+.ticks {
+  font: 10px sans-serif;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: #000;
+  stroke-opacity: 0.3;
+  stroke-width: 10px;
+}
+
+.track-inset {
+  stroke: #ddd;
+  stroke-width: 8px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  stroke: transparent;
+  cursor: crosshair;
+}
+
+.handle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25px;
 }

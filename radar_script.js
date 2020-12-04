@@ -1,4 +1,4 @@
-const margin = { top: 100, right: 100, bottom: 100, left: 100 };
+const margin = { top: 50, right: 300, bottom: 100, left: 50 };
 
 const width = 960 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;
@@ -57,7 +57,7 @@ const slider = d3
   .attr("class", "g-slider")
   .attr("transform", "translate(" + margin.left + "," + 40 + ")");
 
-d3.csv("data/data.csv", function (error, data) {
+d3.csv("vis1_data.csv", function (error, data) {
   if (error) throw error;
 
   data = data.map((e) => ({
@@ -73,7 +73,7 @@ d3.csv("data/data.csv", function (error, data) {
   xSlider = d3
     .scaleTime()
     .domain([data[0].date, data[data.length - 1].date])
-    .range([0, width])
+    .range([0, 530])
     .clamp(true);
 
   slider.select(".track").remove();
@@ -132,7 +132,7 @@ d3.csv("data/data.csv", function (error, data) {
       (e) => formatTime(e.date) === formatTime(record_date)
     );
     if (matched) {
-      updateRadar(matched, parseTime("7/31/20"));
+      updateRadar(matched, parseTime("7/30/20"));
     }
   }
 
@@ -194,7 +194,7 @@ d3.csv("data/data.csv", function (error, data) {
 
   radar = center.append("g");
 
-  updateRadar(data[0], parseTime("7/31/20"));
+  updateRadar(data[0], parseTime("7/30/20"));
 });
 
 function updateRadar(record, thredhold) {
