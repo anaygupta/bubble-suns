@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Too Hot for the Bubble?</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<style>
+    h1,
+    h2,
+    h3,
+    h4,
+    span {
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .container {
+        max-width: 1440px;
+    }
+
+    hr {
+        border-top: 1px solid black;
+    }
+
+    img {
+        width: 100%;
+        border: 1px solid gray;
+        text-align: center;
+    }
+    #toc_container {
+        background: #f9f9f9 none repeat scroll 0 0;
+        border: 1px solid #aaa;
+        display: table;
+        font-size: 95%;
+        margin-bottom: 1em;
+        padding: 20px;
+        width: auto;
+    }
+
+    .toc_title {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #toc_container li, #toc_container ul, #toc_container ul li{
+        list-style: outside none none !important;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <br />
+            <h1 style="color: purple;">#WHYNOTUS</h1>
+<!--            <hr>-->
+            <br />
+            <h2 style="color: orangered;">Too Hot for the Bubble?</h2>
+            <br/>
+            <div style="text-align: center;">
+                <img src="imgs/suns_logo.png" style="width: 50%;">
+            </div>
+            <br />
+            <h4>The Story of the Phoenix Suns' Performance in the 2020 NBA Orlando Bubble</h4>
+
+<!--            <br />-->
+        </header>
+        <hr>
+        <div id="toc_container">
+            <p class="toc_title" style="text-align: left">Contents</p>
+<!--            <ul class="toc_list">-->
+                <li><a href="#1">1. Intro</a></li>
+                <li><a href="#2">2. Pre-Bubble Data Visualizations</a>
+<!--                    <ul>-->
+<!--                        <li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>-->
+<!--                        <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>-->
+<!--                    </ul>-->
+                </li>
+                <li><a href="#3">3. COVID-19 Restrictions</a>
+                <li><a href="#4">4. Infamous Bleacher Report</a></li>
+                <li><a href="#5">5. What Actually Happened in the Bubble</a></li>
+                <li><a href="#6">6. In-Bubble Data Visualizations</a></li>
+                <li><a href="#7">7. What Changed?</a></li>
+                <li><a href="#8">8. Stat Comparisons</a></li>
+<!--            </ul>-->
+        </div>
+        <br id="1"/>
+        <br />
+        <h4 style="text-align: left;"> The Phoenix Suns were invited just to accommodate the Pelicans’ and their star
+            rookie, Zion Williamson’s appearance in the NBA.
+            Our Suns were not supposed to be in the Bubble and everyone looked down on us. But something surprising
+            happened. Something
+            not even the pundits could predict: the Suns rose every day for two weeks, just as consistently as the Sun
+            itself and their
+            undefeated record shone just as brightly.</h4>
+        <br />
+<!--        <hr>-->
+        <br />
+        <h4 style="text-align: left;">What did the Suns look like during the pre-bubble season?</h4>
+        <br />
+        <br />
+        <p style="text-align: left;">...not too hot.</p>
+        <br /><br id="2"/>
+<!--        <hr>-->
+        <div  class="row">
+            <div class="col-md-6">
+                <div class="row"
+                    style="width: 100%; height: 100%; border: 1px solid black; border-radius: 10px; margin: 0; padding: 15px;">
+                    <div style="text-align: center">
+                        <h1>Pre-Bubble Suns' Team Personality</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row"
+                    style="width: 100%; height: 100%; border: 1px solid black; border-radius: 10px; margin: auto; padding: 15px;">
+                    <div style="text-align: center">
+                        <h1>Pre-Bubble Player Contribution Breakdown</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row"
+                    style="width: 100%; height: 100%; border: 1px solid black; border-radius: 10px; margin: 0; padding: 15px;">
+                    <object style="width:700px; height: 700px; margin: 0 auto; padding-right: 0;"
+                        data="radar_index.html"></object>
+
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="row"
+                    style="height:100%; width: 100%; margin: 0 auto; border: 1px solid black; border-radius: 10px; padding: 15px;">
+                    <object style="width: 700px; height: 700px;" data="bubbleIndex1.html"></object>
+                    <a style="margin: 0 auto; font-size: 2em;" href="index.html">
+                        Expand Viz #3
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <br /><br /><br /><br /><br /><br id="3"/>
+        <hr>
+        <br />
+        <h4 id="suspend">March 11, 2020: NBA suspends the regular season due to the COVID-19 pandemic.</h4>
+        <br />
+<!--        <hr>-->
+        <br />
+        <h4>June 17, 2020: NBA provides medical protocol and plans to restart the NBA season in the Bubble.</h4>
+        <br />
+<!--        <hr>-->
+        <br />
+        <h4>July 2020: NBA invites the Phoenix Suns to join the bubble.</h4>
+                <hr>
+        <br /><br /><br /><br /><br /><br />
+
+        <br id="4"/>
+        <img  src="imgs/bleacher_report_lol.JPG">
+        <br /><br />
+        <h4><i>Why risk Devin Booker's and Deandre Ayton's health with (almost literally) nothing to play for? Even at
+                full strength, the Suns are overmatched.</i>- <a
+                href="https://bleacherreport.com/articles/2900353-10-bold-predictions-for-nbas-regular-season-conclusion"
+                target="_blank"> Bleacher Report (Grant Hughes)</a></h4>
+        <br />
+        <h4><i>"Which team is most likely to go 0-8? Suns."</i> - <a
+                href="https://nba.nbcsports.com/2020/07/29/bring-on-the-games-seven-predictions-for-nba-restart/"
+                target="_blank"> NBC Sports (Dan Feldman)</a></h4>
+        <br />
+        <hr>
+        <br /><br /><br /><br /><br /><br /><br id="5"/>
+        <h4 >So what <b><i>actually</i></b> happened to the Suns once they went in-bubble?</h4>
+        <br />
+        <h1 style="text-align: center; color: orangered;">...FLAMING HOT</h1>
+        <br /><br /><br /><br /><br /><br /><br />
+        <div class="row">
+            <div class="col-md-6">
+                <a href="https://www.cbssports.com/nba/news/suns-success-inside-nba-bubble-a-positive-sign-the-struggling-franchises-future-is-brighter-than-ever/"
+                    target="_blank">
+                    <img src="imgs/cbs.JPG">
+                </a>
+                <br /><br /><br /><br />
+                <a href="https://sports.yahoo.com/suns-last-undefeated-team-nba-bubble-raptors-clippers-042650270.html"
+                    target="_blank">
+                    <img src="imgs/yahoo.JPG">
+                </a>
+                <br /><br /><br /><br />
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.theringer.com/nba/2020/8/14/21369042/phoenix-suns-bubble-restart-undefeated-play-in-race-solution"
+                    target="_blank">
+                    <img src="imgs/the_ringer.JPG">
+                </a>
+                <br /><br /><br /><br />
+                <a href="https://www.thescore.com/nba/news/2002017" target="_blank">
+                    <img src="imgs/thescore.JPG">
+                </a>
+
+            </div>
+        </div>
+        <img src="imgs/booker.JPG">
+        <p>Devin Booker after he sank in the buzzer beating game winner against the Los Angeles Clippers</p>
+        <hr>
+        <br /><br /><br /><br /><br /><br id="6"/>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row"
+                    style="width: 100%; height: 100%; border: 1px solid black; border-radius: 10px; margin: 0; padding: 15px;">
+                    <div style="text-align: center">
+                        <h1>In-Bubble Suns' Team Personality</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row"
+                    style="width: 100%; height: 100%; border: 1px solid black; border-radius: 10px; margin: auto; padding: 15px;">
+                    <div style="text-align: center">
+                        <h1>In-Bubble Player Contribution Breakdown</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row"
+                    style="width: 100%; height: 100%; border: 1px solid black; border-radius: 10px; margin: 0; padding: 15px;">
+                    <object style="width:700px; height: 700px; margin: 0 auto; padding-right: 0;"
+                        data="radar2_index.html"></object>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row"
+                    style="height:100%; width: 100%; margin: 0 auto; border: 1px solid black; border-radius: 10px; padding: 15px;">
+                    <object style="width: 700px; height: 700px;" data="bubbleIndex2.html"></object>
+                    <a style="margin: 0 auto; font-size: 2em;" href="index2.html">
+                        Expand Viz #3
+                    </a>
+                </div>
+
+            </div>
+        </div>
+<!--        <hr>-->
+        <br />
+        <p id="despite">Despite not having key players like Kelly Oubre Jr. and Aron Baynes during the bubble, the
+            Suns were able to
+            still display high-level performances against some of the NBA’s top teams. The Phoenix Suns came out of the
+            bubble undefeated but was unable to make the play-ins due to unlucky circumstances.</p>
+        <p>Without Oubre Jr., the Suns were missing out 18.7 ppg and 45% shooting from the field -- a key component of
+            their regular season’s offense. The Suns also missed his big personality on the court as he would hype up
+            his teammates and raise everyone’s mood.</p>
+        <p>Without Baynes, the Suns were lacking an efficient back-up big center player that helped set screens, protect
+            the rim, and get in the paint. As a large and physical player, Baynes would have provided a much-needed big
+            for the Suns’ second and third rotations/lineups</p>
+<!--        <br />-->
+<!--        <hr>-->
+<!--        <br /><br /><br /><br /><br /><br /><br />-->
+        <h3 id="7" style="text-align: left;">So what changed?</h3>
+        <br />
+        <h4 style="text-align: left;"><b><i>What were the biggest differences in the Suns’ playstyle, and who were their most influential
+                    contributors?</i></b></h4>
+        <p>Our team created this dashboard of visualizations as an story-told analysis of multiple comparisons of the
+            Phoenix Suns’ 65 games before playing in the 2020 Orlando Bubble and the eight games they played in-bubble.
+        </p>
+        <p>We thought the most enlightening comparisons would be for the seven teams the Suns played both pre-bubble and
+            in-bubble.</p>
+<!--        <br />-->
+        <hr>
+        <style>
+            #wrapper {
+                margin: auto;
+                width: 1310px;
+            }
+
+            svg {
+                border: 1px solid gray;
+                border-radius: 10px;
+                height: 300px;
+                width: 350px;
+                margin: 5px;
+            }
+
+            .tooltip-map {
+                position: absolute;
+                text-align: left;
+                padding: .5rem;
+                background: #FFFFFF;
+                color: #313639;
+                border: 1px solid #313639;
+                border-radius: 4px;
+                pointer-events: none;
+                font-size: 1rem;
+            }
+            #legend {
+                height: 300px;
+                width: 200px;
+                border: 0px;
+            }
+        </style>
+        <div id='wrapper'>
+            <br /><br /><br /><br /><br /><br />
+            <h2 id="8">Suns' Stat Averages Against Bubble Teams 2019-20 Season</h2>
+            &nbsp;Select Opponent Team for Suns' Pre-Bubble and In-Bubble Comparison:&nbsp;
+            <select id='teamselect' onchange='drawBars();'>
+                <option value='DAL'>Dallas Mavericks</option>
+                <option value='PHI'>Philadelphia 76ers</option>
+                <option value='OKC'>Oklahoma City Thunder</option>
+                <option value='MIA'>Miami Heat</option>
+                <option value='IND'>Indiana Pacers</option>
+                <option value='LAC'>Los Angeles Clippers</option>
+                <option value='WAS'>Washington Wizards</option>
+            </select>
+            <br />
+            <svg id='FGM_bar'></svg>
+            <svg id='AST_bar'></svg>
+            <svg id='REB_bar'></svg>
+            <svg id='legend'></svg>
+        </div>
+        <div id='wrapper'>
+            <svg id='STL_bar'></svg>
+            <svg id='BLK_bar'></svg>
+            <svg id='TOV_bar'></svg>
+        </div>
+        <script src="bar_chart.js"></script>
+        <br />
+        <p>The transition from the pre-bubble Suns going 26-39 to the in-bubble Suns going 8-0 was dramatic. But we
+            believe the largest contributors to the bubble performance came from the Suns improving their rebounds,
+            maintaining their high-assist play style, high free throw accuracy, and strong bench lineups.</p>
+        <p><b>Rebounds:</b> In six out of their eight bubble games, the Suns improved their rebound counts from when
+            they faced the same team during the pre-bubble regular season.</p>
+        <p><b>Assists:</b> The Suns led the league with 27.2 assists per game. Coach Monty Williams has accredited this
+            playstyle to the youth on the team and Ricky Rubio playing unselfishly.</p>
+        <p><b>Free Throws:</b> Previously held by the 1989-1990 Boston Celtics with a free throw percentage of 83.19%,
+            this season’s Phoenix Suns made 1,451 out of their 1,740 free throws, giving them an 83.39% free throw
+            rating. Devin Booker was a big contributor in this area, shooting at 91.9% from the line, a league-best for
+            the 24 year old.</p>
+        <p><b>Turnovers:</b> The Suns have made significant improvements on ball handling and significantly reduced the
+            amount of turnovers given to the opposing team. In six of the eight games, the Suns have shown how much
+            better they are at handling the ball against NBA powerhouses like the Clippers and 76ers compared to before
+            the Bubble.</p>
+        <p>All in all, the Phoenix Suns have set themselves up for quite the return on December 12, 2020 against the
+            Utah Jazz, and shortly thereafter the reigning champs from Los Angeles, the Lakers. With significant
+            additions to the roster including maverick Point Guard, Chris Paul, the future seems bright as ever for the
+            Suns.</p>
+        <hr>
+<!--        <a href="#header" class="back-to-top">Back to Top</a>-->
+        <h5 style="text-align: right;">Data Source: <a
+                href="https://www.basketball-reference.com/teams/PHO/2020_games.html" target="_blank"> Basketball
+                Reference</a></h5>
+        <br />
+    </div>
+</body>
+
+</html>

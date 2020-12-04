@@ -216,10 +216,10 @@ function updateRadar(record, thredhold) {
     .attr("d", lineRadial)
     .attr("transform", "rotate(180)")
     .style("stroke", color)
-    .style("stroke-opacity", 0.7)
+    .style("stroke-opacity", 1)
     .style("stroke-width", 2)
     .style("fill", color)
-    .style("fill-opacity", 0.3)
+    .style("fill-opacity", 0.5)
     .style("filter", "url(#glow)");
 
   radar
