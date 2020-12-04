@@ -45,9 +45,12 @@ Encoding choices and design decisions: To show the fluctuation of the team’s s
 ![Radar Screenshot](radarPic.png) 
 
 (Bubble Chart) Visualization 3 showcases each active player’s contributions on 5 levels: field goals made, steals, rebounds, blocks, and turnovers. The user is able to select and view a breakdown for each season game (pre-bubble and in-bubble) by using a game slider. 
+
 ![Bubble Screenshot](bubblePic.png)
+
 (Bar Chart) Visualization 2 compares how the Suns’ did stat-wise before the bubble and during the bubble against the seven match-ups from the bubble to see if there were any improvements in performance and we would base our concluding arguments based off the bar charts.
 Since this visualization supports user interaction, users will be able to select which of the seven match-ups they would like to compare Suns’ pre-bubble and in-bubble performances.
+
 ![Bar Screenshot](barPic.png)
 
 **Linking**: Since our project was a store-telling interface, our visualizations were not visually linked. Although the visualizations were based on the core dataset, we found more value in telling the story behind the Suns’ reformation and that required separating our visualizations.
