@@ -33,6 +33,7 @@
     img {
         width: 100%;
         border: 1px solid gray;
+        text-align: center;
     }
 </style>
 
@@ -44,7 +45,12 @@
             <hr>
             <br />
             <h2 style="color: orangered;">Too Hot for the Bubble?</h2>
-            <h4>The Story of the Phoenix Suns' Performance in the 2020 NBA Orlando Bubble</h4>
+            <br/>
+            <div style="text-align: center;">
+                <img src="imgs/suns_logo.png" style="width: 50%;">
+            </div>
+            <br />
+            <h2><b>The Story of the Phoenix Suns' Performance in the 2020 NBA Orlando Bubble</b></h2>
 
             <br />
             <hr />
@@ -249,6 +255,11 @@
                 pointer-events: none;
                 font-size: 1rem;
             }
+            #legend {
+                height: 300px;
+                width: 200px;
+                border: 0px;
+            }
         </style>
         <div id='wrapper'>
             <h2>Suns' Stat Averages Against Bubble Teams 2019-20 Season</h2>
@@ -266,6 +277,7 @@
             <svg id='FGM_bar'></svg>
             <svg id='AST_bar'></svg>
             <svg id='REB_bar'></svg>
+            <svg id='legend'></svg>
         </div>
         <div id='wrapper'>
             <svg id='STL_bar'></svg>

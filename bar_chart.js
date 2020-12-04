@@ -50,6 +50,12 @@ TOVSvg = d3.select('#TOV_bar')
     .append("g")
     .attr("transform", `translate(${lineMargin.left},${lineMargin.top})`);
 
+legendSvg = d3.select('#legend')
+    .attr("width", width + lineMargin.left + lineMargin.right)
+    .attr("height", height + lineMargin.top + lineMargin.bottom)
+    .append("g")
+    .attr("transform", `translate(${lineMargin.left},${lineMargin.top})`);
+
 // create scales
 const xScale = d3.scaleBand()
     .domain(['Pre-Bubble', 'In-Bubble'])
@@ -276,6 +282,35 @@ function drawBars() {
             .style("text-anchor", "middle")
             .style("font-weight", 10)
             .text("Turnovers");
+
+        // add legend
+        legendSvg.append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 30)
+            .attr("height", 30)
+            .style("fill", "#E56020");
+
+        legendSvg.append("text")
+            .attr("x", 40)
+            .attr("y", 20)
+            .attr("font-family", "sans-serif")
+            .style("font-size", "16px")
+            .text("Pre-Bubble");
+
+            legendSvg.append("rect")
+            .attr("x", 0)
+            .attr("y", 45)
+            .attr("width", 30)
+            .attr("height", 30)
+            .style("fill", "#1D1160");
+
+            legendSvg.append("text")
+            .attr("x", 40)
+            .attr("y", 65)
+            .attr("font-family", "sans-serif")
+            .style("font-size", "16px")
+            .text("In-Bubble");
 
     });
 }
