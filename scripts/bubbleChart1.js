@@ -100,11 +100,11 @@ function createBubbleChart(gameNumber) {
             console.log(d.name);
             d3.select('#tooltip h1')
                 .text(d.name)
-                .style('font-size', '3em')
+                .style('font-size', '1.5em')
                 .style('color', '#E56020');
             d3.select('#tooltip p')
                 .text(d.size + ' ' + d.parent.name)
-                .style('font-size', '3em')
+                .style('font-size', '1.5em')
                 .style('color', '#1d1160');
 
             d3.select('#tooltip')

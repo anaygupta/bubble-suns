@@ -409,7 +409,7 @@ function createBubbleChart(gameNumber) {
     }//endall
 }
 
-createBubbleChart(1);
+createBubbleChart(66);
 // var i;
 // for (i = 1; i < 4; i++) {
 //     setTimeout(() => {

@@ -5,7 +5,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <script src="scripts/bubbleChart.js"></script>
+    <script src="scripts/bubbleChart1.js"></script>
     <link rel="stylesheet" href="bubble_style.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -18,39 +18,19 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
     <style>
         body {
+            width: 600px;
             margin: 0 auto;
         }
 
-        #container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-
         #chart {
-            width: 800px;
-            height: 800px;
+            height: 650px;
         }
 
-        #menu {
-            padding: 0;
-            margin: 10em auto;
-            text-align: center;
-            height: 1em;
+        link a {
+            /* text-align: center; */
+            /* width: 650px; */
+            margin: 0 auto;
         }
-
-        input {
-            padding: 5em;
-        }
-
-        #tooltip {
-            /* margin-top: 10em; */
-        }
-
-        /* #input {
-            margin: 3em auto 0em auto;
-            padding: 0;
-            text-align: center;
-        } */
 
         /* #input {
             float: left;
@@ -64,22 +44,9 @@
 </head>
 
 <body>
-    <div id="container">
-        <div id="chart"></div>
-        <div id="menu">
-            <h2 style="font-size: 2em;">Select Game:</h2>
-            <input style="width: 200px; height: 100px; font-size: 2em;" id="selectYear" class="input" type="number"
-                value="1" placeholder="Game" onchange='createBubbleChart(value);'>
-            <h2 style="font-size: 2em; margin-top: 5em;">Tooltip:</h2>
-            <div id="tooltip">
-                <h1></h1>
-                <p></p>
-            </div>
-        </div>
-    </div>
-    <a href="story.html#suspend" style="padding: 1em 1em;">Back to Story</a>
-    </div>
+    <div id="chart"></div>
 
 </body>
+<script src="scripts/scroller.js"></script>
 
 </html>
