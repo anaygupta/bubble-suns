@@ -1,0 +1,44 @@
+#chart {
+	font-size: 10px;
+	font-weight: 400;
+	color: #4c4c4c;
+	fill: #4c4c4c;
+	text-align: center;
+	cursor: default;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #1D1160;
+  stroke-width: 5px;
+  opacity: 1.0;
+}
+.node--root {
+    fill: blue;
+}
+.node--leaf {
+  fill: #E56020;
+}
+
+.circleText {
+	text-anchor: middle;
+}
+/* Suns colors */
+/* #1D1160", "#1D1160 */
+
+.innerCircleTitle {
+	text-anchor: middle;
+}
+
+.subTotal {
+	fill: #BFBFBF;
+	font-weight: 400;
+}
+
+.innerText {
+	color: #4A4A4A;
+	text-anchor: end;
+}
