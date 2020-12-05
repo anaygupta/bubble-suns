@@ -57,7 +57,7 @@ const slider = d3
   .attr("class", "g-slider")
   .attr("transform", "translate(" + margin.left + "," + 40 + ")");
 
-d3.csv("vis1_data.csv", function (error, data) {
+d3.csv("datasets/vis1_data.csv", function (error, data) {
   if (error) throw error;
 
   data = data.map((e) => ({
