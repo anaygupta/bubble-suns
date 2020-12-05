@@ -1,6 +1,6 @@
 # Too Hot for the Bubble?
 # Overview:
-![A Peak](thumbnail.png) 
+![A Peak](screenshots/thumbnail.png) 
 The Phoenix Suns had a spectacular bubble run in the 2019-20 NBA season when they should have never been invited and everyone doubted them. A cursory glance of the Suns’ regular season before COVID-19 lockdowns began shows that our boys were some of the lowest in the league. Since joining the bubble, The Phoenix Suns had blown away not only residents of the State of Arizona, but the rest of the nation. The Valley boys had outperformed and beaten the West Coast’s best teams, but barely missed playoff qualifications. We will be taking a look into the season where the Phoenix Suns became the NBA’s darlings and analyze their success at the NBA Bubble in Orlando. 
 
 ## Data description:
@@ -42,16 +42,16 @@ Our interface **tells a story** about the transition from The Phoenix Suns of Ol
 (Radar Chart) Visualization 1 allows the user to scroll though the dates of every pre-bubble and in-bubble game to see how the Suns’ team personality modulated throughout the season. With animations between each date chosen on the slider beneath the chart, users can visually see how the Suns’ personality is pretty fluid, changing across opponents and time of year.
 Encoding choices and design decisions: To show the fluctuation of the team’s statistics across the regular season, users can click to drag the date slider across the calendar year. To highlight the separation of the bubble games from the regular season games, the two “eras” were given different colors. Users can view the exact (round to nearest tenth decimal) value of each of the six statistics by hovering over the plot point on the respective statistic’s axis. 
 
-![Radar Screenshot](radarPic.png) 
+![Radar Screenshot](screenshots/radarPic.png) 
 
 (Bubble Chart) Visualization 3 showcases each active player’s contributions on 5 levels: field goals made, steals, rebounds, blocks, and turnovers. The user is able to select and view a breakdown for each season game (pre-bubble and in-bubble) by using a game slider. 
 
-![Bubble Screenshot](bubblePic.png)
+![Bubble Screenshot](screenshots/bubblePic.png)
 
 (Bar Chart) Visualization 2 compares how the Suns’ did stat-wise before the bubble and during the bubble against the seven match-ups from the bubble to see if there were any improvements in performance and we would base our concluding arguments based off the bar charts.
 Since this visualization supports user interaction, users will be able to select which of the seven match-ups they would like to compare Suns’ pre-bubble and in-bubble performances.
 
-![Bar Screenshot](barPic.png)
+![Bar Screenshot](screenshots/barPic.png)
 
 **Linking**: Since our project was a store-telling interface, our visualizations were not visually linked. Although the visualizations were based on the core dataset, we found more value in telling the story behind the Suns’ reformation and that required separating our visualizations.
 
