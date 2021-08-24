@@ -1,6 +1,7 @@
 # bubble-suns
 - deployed at [https://bubblesuns.netlify.app](https://bubblesuns.netlify.app)
 ---
+
 ## Too Hot for the Bubble?
 ### Overview:
 ![A Peak](screenshots/thumbnail.png) 
