@@ -1,9 +1,12 @@
-# Too Hot for the Bubble?
-# Overview:
+# bubble-suns
+- deployed at [https://bubblesuns.netlify.app](https://bubblesuns.netlify.app)
+---
+## Too Hot for the Bubble?
+### Overview:
 ![A Peak](screenshots/thumbnail.png) 
 The Phoenix Suns had a spectacular bubble run in the 2019-20 NBA season when they should have never been invited and everyone doubted them. A cursory glance of the Suns’ regular season before COVID-19 lockdowns began shows that our boys were some of the lowest in the league. Since joining the bubble, The Phoenix Suns had blown away not only residents of the State of Arizona, but the rest of the nation. The Valley boys had outperformed and beaten the West Coast’s best teams, but barely missed playoff qualifications. We will be taking a look into the season where the Phoenix Suns became the NBA’s darlings and analyze their success at the NBA Bubble in Orlando. 
 
-## Data description:
+### Data description:
 
 All three visualization techniques will use the following six statistics/variables: 
 - Field Goals Made (FGM, FG)
@@ -24,7 +27,7 @@ For the bar graphs, from visualization 2’s dataset, we hand-calculated the ave
 For the circle packing chart, the data was retrieved and pre-processed in python. Using the python scraping library Selenium, box scores for all 72 games were scraped from the url above. Then, for each game, every active player’s field goals made, rebounds, assists, blocks, turnovers, and steals were extracted and put into a json file. Each game had its own json file due to the hierarchical structure requirements of the circle packing chart. This processed data can be found in the viz3 folder within the data folder on GitHub.
 
 
-## Goals and Tasks:
+### Goals and Tasks:
 **Domain**:
 The target user base for our dashboard will be Phoenix Suns fans, but other, more general user bases that may be interested would include NBA-wide fans, NBA “stat freaks”, NBA coaches, and Sport News outlets in Phoenix. To get a sense of the size of the Phoenix Suns fanbase, across major social media platforms, the Phoenix Suns have 1,000 Discord members, 27,000 Youtube subscribers, 90,800 subreddit members, 1,100,000 Twitter followers, 1.6 million Instagram followers, and 1.8 Facebook likes.
 
@@ -34,7 +37,7 @@ The target user base for our dashboard will be Phoenix Suns fans, but other, mor
 - In the third visualization, the Suns’ players contribution for each game will be presented to users and users will be able to identify which player(s) stood out during any given game during the 2019-2020 season.
 
 
-## Idioms: 
+### Idioms: 
 Visualization idioms are a unique sequence of data enrichment and enhancement transformations. Idioms can include visualization mappings and the process of rendering transformations that produce an abstract display of a data set. 
 
 Our interface **tells a story** about the transition from The Phoenix Suns of Old to the Newly Reformed Phoenix Suns. A story-based interface, our project presents the user in chronological order of how the Suns began their season, the bumps caused by Coronavirus along the way, and the end product -- a perfect 8-0 record in the 2020 Orlando Bubble. By comparing previous performances against the Suns themselves and their opponents and understanding how each play contributed to six key statistics, we were able to reach a conclusion told throughout the visualization: the Suns’ potential grew within the bubble in an unprecedented fashion.
@@ -56,7 +59,7 @@ Since this visualization supports user interaction, users will be able to select
 **Linking**: Since our project was a store-telling interface, our visualizations were not visually linked. Although the visualizations were based on the core dataset, we found more value in telling the story behind the Suns’ reformation and that required separating our visualizations.
 
 **Algorithms**: Visualizations 1 and 2 did not require any algorithms. However, visualization 3 required a size coding algorithm as the technique consists of concentric bubbles that are proportionally sized to statistical contribution (Munzner, p. 204-205). We will also use a form of the ​circular packing algorithm​ to place the player contribution circles within the game total circles (references to this in d3 can be found ​here​ and ​here​).
-## Reflection:
+### Reflection:
 
 From the project proposal, we initially envisioned having a visual analytics interface but after receiving some feedback, we changed our project to reflect an interactive data-driven story as it would be a way we can display the entirety of the Suns’ 2019-20 season through a narrative and visualizations. While the original proposal was realistic and achievable, it did not quite link visualizations together effectively. As we found it difficult to find an effective way of linking our visualizations together, we settled on an interactive data-driven story. As for getting to the final product, nothing changed in the plan since the WIP so we were all able to slowly get everything together for the final product.
 
@@ -65,7 +68,7 @@ One unexpected challenge rose during the box score data pre-processing for visua
 Next time, we would probably like to try and add more customizable visualizations. This would enable the user to interact with multiple visualizations however they see fit and draw analysis about the Suns’ performance for themselves. If more time is permitted, we could also add the stats from other teams that the Suns’ went against to see how better/worse they performed against the Suns before the bubble and during the bubble.
 
 
-## Team workload: 
+### Team workload: 
 
 **Anay Gupta**: 
 - Completed scraping of box scores for all 72 Suns games.
