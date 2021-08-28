@@ -1,5 +1,9 @@
 # bubble-suns
-- deployed at [bubblesuns.netlify.app](https://bubblesuns.netlify.app)
+
+Visualize the 2020 Phoenix Suns' undefeated bubble run.
+
+Deployed [here](https://bubblesuns.netlify.app)
+
 ---
 
 ## Too Hot for the Bubble?
