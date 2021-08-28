@@ -2,7 +2,7 @@
 
 Visualize the 2020 Phoenix Suns' undefeated bubble run.
 
-Deployed [here](https://bubblesuns.netlify.app)
+Deployed [here](https://bubblesuns.netlify.app).
 
 ---
 
